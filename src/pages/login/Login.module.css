@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333;
+  max-width: 300px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px;
+  background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #888;
+}
+
+.line {
+  display: block;
+  margin-top: 5px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.errmsg {
+  color: #ff4040;
+  margin: 0px;
+}
+.offset {
+  height: 18px;
+  margin: 0px;
+}

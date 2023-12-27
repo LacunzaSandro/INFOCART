@@ -1,0 +1,33 @@
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  padding: 15px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label {
+  font-size: 13px;
+  color: gray;
+}
+
+.error-container {
+  height: 25px;
+}
+
+.error-message {
+  color: red;
+  visibility: hidden;
+  top: 200%; /* Ajusta esto según sea necesario */
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.error-message.active {
+  visibility: visible;
+}

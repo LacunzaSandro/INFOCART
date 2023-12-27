@@ -1,0 +1,101 @@
+.card {
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 250px;
+	min-height: 450px;
+  }
+  
+  .card img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+  }
+  
+  .cardContent {
+	text-align: center;
+	p {
+	  text-align: justify;
+	}
+  }
+  
+  h2 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	color: #333;
+  }
+  
+  p {
+	color: #555;
+	margin-bottom: 8px;
+  }
+  
+  p.price {
+	font-weight: bold;
+	color: #222;
+  }
+  .buttonContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	button {
+	  border: 0px;
+	}
+	a {
+	  margin: 0px;
+	  svg {
+		margin-top: 5px;
+	  }
+	}
+  }
+  
+  .button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+  }
+  .buttonRight {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	width: 30%;
+	border-radius: 5px;
+	float: right;
+  }
+  
+  .fullWidthButton {
+	background-color: #3498db;
+	color: white;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+  }
+  .a {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 40px;
+	margin-top: 15px;
+  
+	button {
+	  margin-top: 0px;
+	  background-color: #4caf50;
+	}
+  }
+  

@@ -1,0 +1,38 @@
+.formUpdate {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 500px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 15px;
+}
+
+.formUpdate .label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formUpdate .input,
+.formUpdate .textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.formUpdate .textarea {
+  height: 110px;
+}
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,15 @@
+/* ImageSlider.module.css */
+.slider {
+  width: 100%; /* Ajusta el ancho del slider según tus necesidades */
+}
+
+/* .slide {
+  display: flex;
+  justify-content: center;
+} */
+
+.image {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 800px; /* Ajusta el tamaño máximo de la imagen */
+  object-fit: contain; /* Ajusta la forma en que la imagen se ajusta al contenedor */
+}

@@ -1,0 +1,35 @@
+.productsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  /* background-color: green; */
+}
+.createProduct {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 90%;
+  margin-top: 10px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none; /* Para quitar los puntos de la lista */
+  padding: 0; /* Eliminamos el relleno predeterminado de la lista */
+  /* background-color: red; */
+  width: calc(100vw - 350px);
+}
+@media (max-width: 600px) {
+  .productsContainer {
+    flex-direction: column;
+  }
+  .products {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,54 @@
+.CategoryEditContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+  }
+  
+  .CategoryEditForm {
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	max-width: 500px;
+	width: 100%;
+  }
+  .Label {
+	width: 300px;
+  }
+  .Input {
+	margin: 10px 5px;
+	border-radius: 5px;
+	padding: 5px;
+	
+  }
+  
+  .ImageContainer {
+	display: flex;
+	flex-direction: column;
+	justify-items: right;
+	width: 40%;
+  }
+  
+  .ImagePreview {
+	width: 200px;
+	min-height: 120px;
+	min-width: 200px;
+	background-color: #8b8989;
+  }
+  .InputContainer {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+  }
+  .Button {
+	background-color: #555;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+  }
+  

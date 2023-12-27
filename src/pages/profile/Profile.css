@@ -1,0 +1,28 @@
+.profile-container {
+  width: 300px;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.profile-item {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.profile-image {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}

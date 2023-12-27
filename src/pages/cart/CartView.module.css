@@ -1,0 +1,130 @@
+/* Agrega estilos según sea necesario para otros elementos en tu componente */
+.Order {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  h1 {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+.btnAddOrMinQuantity {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.CartContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .Products {
+	flex: 2;
+  } */
+.SummaryContainer {
+  width: 48%;
+  margin-bottom: 100px;
+}
+.Separate {
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.Summary {
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 30px;
+  justify-content: left;
+}
+
+.Products {
+  width: 50%;
+  min-width: 350px;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    min-width: 250px;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+}
+
+.summaryDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.CartText {
+  margin: 0;
+  min-width: 50px;
+}
+.CartTexttitle {
+  margin: 0;
+  min-width: 200px;
+  justify-items: left;
+}
+.productoTitle {
+  min-width: 200px;
+}
+.Item {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+.BtnCheckout {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background-color: #5fabdf;
+  }
+}
+.EmptyCartImg {
+  width: 320px;
+  margin: auto auto;
+}
+.EmptyCartText {
+  font-weight: bold;
+  margin-top: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 200px);
+  margin-top: 100px;
+}
+@media screen and (max-width: 900px) {
+  .CartContainer {
+    flex-direction: column;
+  }
+  .SummaryContainer {
+    width: 100%;
+    .Summary {
+      margin: 0 auto;
+    }
+  }
+}

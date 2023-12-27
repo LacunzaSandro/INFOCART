@@ -1,0 +1,32 @@
+.selected {
+  background-color: #e6e0e0; /* Cambia el color de fondo cuando está seleccionado */
+}
+.createCategory {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 95%;
+  margin-top: 10px;
+}
+.CategoryMenu {
+  width: 100%;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    min-width: 250px;
+  }
+  li:last-child {
+    border-bottom: none;
+  }
+
+  .EditCategoryButton {
+    float: right;
+    margin: 5px;
+  }
+}
