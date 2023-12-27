@@ -1,7 +1,6 @@
 import { useReducer, useEffect, useCallback, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { reducer, actions, initialState } from "../../api/reducer.js";
-import Error from "../general/Error.jsx";
 import Loader from "../../components/general/Loader.jsx";
 import Categories from "../../api/categories.js";
 import style from "./CategoryMenu.module.css";
@@ -115,9 +114,7 @@ const CategoryMenu = ({ onFilterChange }) => {
   };
   if (loading) {
     return <Loader size={50} />;
-  } else if (error) {
-    return <Error message="Failed to load products" actionFn={loadProducts} />;
-  } else {
+  }  else {
     return (
       <>
         {role == "admin" && (

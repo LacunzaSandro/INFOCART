@@ -3,7 +3,6 @@ import { reducer, actions, initialState } from "../../api/reducer.js";
 import Product from "../../api/products.js";
 import ProductCard from "../../components/products/ProductCard.jsx";
 import CategoryMenu from "../../components/CategoryMenu/CategoryMenu.jsx";
-import Error from "../../components/general/Error.jsx";
 import Loader from "../../components/general/Loader.jsx";
 import api from "../../api/axios";
 import style from "./Categories.module.css";
@@ -71,8 +70,6 @@ function Categories() {
   };
   if (loading) {
     return <Loader size={50} />;
-  } else if (error) {
-    return <Error message="Failed to load products" actionFn={loadProducts} />;
   } else {
     return (
       <div className={style.productsContainer}>
