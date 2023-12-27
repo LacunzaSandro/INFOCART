@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { useEffect, useReducer } from "react";
 import { reducer, actions, initialState } from "../../api/reducer.js";
 import Product from "../../api/products";
-import Error from "../../components/general/Error.jsx";
 import Loader from "../../components/general/Loader.jsx";
 import ImageSlider from "../../components/imageSlider/imageSlider.jsx";
 import styles from "./ProductsDetails.module.css";
@@ -33,8 +32,6 @@ function ProductsDetails() {
   }, []);
   if (loading) {
     return <Loader size={50} />;
-  } else if (error) {
-    return <Error message="Failed to load products" />;
   } else {
     return (
       <div className={styles.cardContainer}>
