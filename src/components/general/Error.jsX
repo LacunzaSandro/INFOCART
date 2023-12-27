@@ -1,9 +1,7 @@
-
-
-import './Error.scss';
+import "./Error.scss";
 
 // eslint-disable-next-line react/prop-types
-function Error({ message, actionLabel = 'Try again', actionFn }) {
+function Error({ message, actionLabel = "Try again", actionFn }) {
   return (
     <div className="error">
       <div className="error__message">{message}</div>

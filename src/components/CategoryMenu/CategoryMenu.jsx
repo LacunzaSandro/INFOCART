@@ -1,7 +1,7 @@
 import { useReducer, useEffect, useCallback, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { reducer, actions, initialState } from "../../api/reducer.js";
-import Error from "../../components/general/Error.jsx";
+import Error from "../general/Error.jsx";
 import Loader from "../../components/general/Loader.jsx";
 import Categories from "../../api/categories.js";
 import style from "./CategoryMenu.module.css";
