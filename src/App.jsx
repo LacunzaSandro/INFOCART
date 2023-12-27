@@ -14,7 +14,7 @@ import ProductsDetails from "./pages/products/ProductsDetails";
 import ProductEdit from "./pages/products/ProductEdit";
 import ProductCreate from "./pages/products/ProductCreate";
 import Categories from "./pages/categories/Categories";
-import Profile from "./pages/profile/profile";
+import Profile from "./pages/profile/Profile";
 import Navbar from "./components/common/navbar/Navbar";
 import NoMatch from "./pages/noMatch/NoMatch";
 import "./App.css";
